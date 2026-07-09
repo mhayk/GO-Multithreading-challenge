@@ -1,5 +1,9 @@
 # Go Multithreading Challenge
 
+## Project Description
+
+Production-inspired Go challenge that implements a low-latency CEP lookup by racing two external APIs concurrently, returning the fastest successful response, and enforcing a strict timeout budget. Built to demonstrate practical backend engineering skills in concurrency, cancellation, and resilience trade-offs.
+
 ## High-level Goal
 
 This project demonstrates a classic concurrent systems pattern in Go: **race two external providers, return the first successful response, and enforce a strict timeout budget**.
